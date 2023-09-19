@@ -1,0 +1,169 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+header {
+    background-color: white;
+    color: #000000;
+    padding: 10px 0;
+}
+
+
+
+nav ul {
+    position:  fixed;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #f0a818;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f9eee2;
+}
+
+.texto-direito {
+    position: fixed;
+    top: 0;
+    right: 10px; 
+    display: flex;
+    align-items: center; 
+    color: #f0a818; 
+
+    
+    img {
+        width: 20px; 
+        height: auto;
+        margin-left: 5px; 
+    }
+}
+
+
+.imagem {
+    max-width: 40px; 
+}
+
+.imagem img {
+    width: 100%; 
+    height: auto; 
+}
+
+.frase {
+    margin-left: 15px; 
+}
+
+
+.animaçao-texto {
+    opacity: 1;
+
+}
+.inicio {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #000000;
+    background-color: white;
+}
+.inicio img {
+    width: 300px; 
+    height: auto; 
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.sobre,
+.educacao,
+.certificados,
+.trabalhos,
+.blog,
+.contato {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.sobre h2,
+.educacao h2,
+.certificados h2,
+.trabalhos h2,
+.blog h2,
+.contato h2 {
+    font-size: 24px;
+}
+
+.sobre p,
+.educacao p,
+.certificados p,
+.trabalhos p,
+.blog p,
+.contato p {
+    font-size: 16px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    margin: 30px 0;
+}
+
+.social-icons .icon {
+    width: 50px; 
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+.github-icon {
+    background-image: url('imagens/icon\ git.png');
+   
+}
+
+.linkedin-icon {
+    background-image: url('imagens/icon\ linkedin.png');
+    
+}
+
+.whatsapp-icon {
+    background-image: url('imagens/icon\ zap.png');
+   
+}
